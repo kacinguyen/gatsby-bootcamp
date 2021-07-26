@@ -3,7 +3,7 @@ import React from 'react'
 // Pre-loads content
 import { Link } from 'gatsby'
 
-import Layout from './components/layout'
+import Layout from '../components/layout'
 
 const IndexPage = () => {
   return (
