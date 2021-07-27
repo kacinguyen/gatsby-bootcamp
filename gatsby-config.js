@@ -13,12 +13,14 @@ module.exports = {
 
   plugins: [
     'gatsby-plugin-sass',
+    // loads raw files from file system
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
         path: `${__dirname}/src/`
       }
-    }
+    },
+    'gatsby-transformer-remark'
   ]
 }
