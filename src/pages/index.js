@@ -9,7 +9,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <h1>Hello!</h1>
-      <h2>I'm Kaci, a tea connoisseur :-)</h2>
+      <h2>I'm Kaci – just learning about React, Gatsby, and GraphQL :-)</h2>
+      <h2>This site is practice with full-stack.</h2>
       <p><Link to="/about">Learn more</Link></p>
     </Layout>
   )
